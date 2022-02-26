@@ -1,6 +1,6 @@
 ## livox_loop_mapping
 This is a repository for Livox LiDARS mapping with loop detection.
-
+**Note:** This is the basic framework for Livox LiDARS mapping with loop detection. It cannot be used for all version of Livox LiDARS. It is suggested that the point cloud is dense enough. And the range image transfered from the point cloud is still in debugging to find better parameters.
 Some key issues:
 1. Different feature extraction;
 2. transfer point cloud to range image, build keyframe database, and detect loop by matching visual features;
